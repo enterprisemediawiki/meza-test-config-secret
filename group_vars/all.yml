@@ -40,3 +40,6 @@ local_config_repo:
   repo: https://github.com/enterprisemediawiki/meza-test-config.git
   version: master
   # force: true # force updates to the repo, to get rid of working directory changes
+
+# May be required for certain cryptographic functions
+wg_secret_key: eyn7RXjZVYDzsfBeqppM2KXcW2690GOzmk4E11aRtCJmSXPh84qYylJk8j7fSqOG
