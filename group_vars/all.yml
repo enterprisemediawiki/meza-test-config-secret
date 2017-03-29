@@ -1,6 +1,5 @@
 ---
 
-# Need to keep FQDN insert-able since IP addresses will vary
 wiki_app_fqdn: "INSERT_FQDN"
 
 m_private_networking_zone: "public"
@@ -27,7 +26,7 @@ mysql_users: []
 # User on database master that slaves use perform replication
 mysql_replication_user:
   name: "db_slave_user"
-  password: "123"
+  password: "1234"
 
 # Do you want your wiki to be able to email?
 # must be either:
@@ -37,9 +36,3 @@ enable_wiki_emails: true
 
 # May be required for certain cryptographic functions
 wg_secret_key: TjahGKHrcnqGwX0nyMwWkvTfpfReRphMZUR7EkWzKC8YmR6yZ9zPCse24MPGWX39
-
-
-# local_config_repo:
- # repo: https://github.com/enterprisemediawiki/meza-test-config.git
-  #version: test-fix
-  # force: true # force updates to the repo, to get rid of working directory changes
