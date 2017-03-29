@@ -39,7 +39,7 @@ enable_wiki_emails: true
 wg_secret_key: TjahGKHrcnqGwX0nyMwWkvTfpfReRphMZUR7EkWzKC8YmR6yZ9zPCse24MPGWX39
 
 
-local_config_repo:
-  repo: https://github.com/enterprisemediawiki/meza-test-config.git
-  version: test-fix
+# local_config_repo:
+ # repo: https://github.com/enterprisemediawiki/meza-test-config.git
+  #version: test-fix
   # force: true # force updates to the repo, to get rid of working directory changes
