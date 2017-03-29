@@ -18,11 +18,8 @@ localhost
 localhost
 
 # Note: db-slaves needs to be in the form:
-# 1.2.3.4   mysql_server_id=2
-# 1.2.3.5   mysql_server_id=3
-# 1.2.3.6   mysql_server_id=4
+# 1.2.3.4   mysql_server_id=2   # ids must be unique and greater than 1
 [db-slaves]
-# INSERT_SLAVE
 
 [parsoid-servers]
 localhost

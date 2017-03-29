@@ -1,9 +1,9 @@
 ---
 
 # Need to keep FQDN insert-able since IP addresses will vary
-wiki_app_fqdn: INSERT_FQDN
+wiki_app_fqdn: "INSERT_FQDN"
 
-m_private_networking_zone: public
+m_private_networking_zone: "public"
 
 # Password for mysql root user
 mysql_root_password: "1234"
@@ -33,10 +33,13 @@ mysql_replication_user:
 # must be either:
 #   true
 #   false
-enable_wiki_emails: false
+enable_wiki_emails: true
+
+# May be required for certain cryptographic functions
+wg_secret_key: TjahGKHrcnqGwX0nyMwWkvTfpfReRphMZUR7EkWzKC8YmR6yZ9zPCse24MPGWX39
 
 
 local_config_repo:
   repo: https://github.com/enterprisemediawiki/meza-test-config.git
-  version: master
+  version: test-fix
   # force: true # force updates to the repo, to get rid of working directory changes
