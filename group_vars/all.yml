@@ -32,7 +32,7 @@ mysql_replication_user:
 # must be either:
 #   true
 #   false
-enable_wiki_emails: true
+enable_wiki_emails: false
 
 # May be required for certain cryptographic functions
 wg_secret_key: TjahGKHrcnqGwX0nyMwWkvTfpfReRphMZUR7EkWzKC8YmR6yZ9zPCse24MPGWX39
