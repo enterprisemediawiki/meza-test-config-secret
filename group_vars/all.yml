@@ -1,8 +1,8 @@
 ---
 
-wiki_app_fqdn: "INSERT_FQDN"
+wiki_app_fqdn: INSERT_FQDN
 
-m_private_networking_zone: "public"
+m_private_networking_zone: public
 
 # Password for mysql root user
 mysql_root_password: "1234"
